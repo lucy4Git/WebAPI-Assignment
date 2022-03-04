@@ -1,0 +1,129 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+    
+       background-image: url(./house1.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    /* height: 100vh; */
+    /* margin: -20px 0 50px;*/
+       
+    }
+ #formbody {
+        
+	background-color: #B0D6EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    /* height: 100%; */
+    text-align: center;
+    /* position: absolute; */
+    margin: 16px auto;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+	
+    }
+#formbody p{
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        margin: 20px 0 30px;
+    }
+    
+    
+   /* margin:0 auto;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}*/
+
+#registrationForm{
+    width: 400px;
+    padding: 22px;
+    align-self: center;
+    margin: auto;
+    height: 100%;
+}
+
+
+
+#formbody p,
+#response #title{
+    text-align: center;
+    font-size: 12px;
+}
+
+#response{
+    width: 500px;
+    /*box-shadow: 2px 2px 10px 2px rgba(0,0,0,.09);*/
+    padding: 22px;
+    align-self: center;
+    margin: auto;
+	background-color: white;
+}
+
+label{
+    margin-top: 20px;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: #fafafb;
+    border: 0px;
+    border-bottom: 2px solid red;
+    padding: .9rem 1.3rem;
+    border-radius: 2px;
+    outline: none;
+    width:300px; 
+    height:25px; 
+    border-radius:25px; 
+    border: none; 
+
+}
+
+select{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: #fafafb;
+    border: 0px;
+    border-bottom: 2px solid red;
+    padding: 1rem !important;
+    border-radius: 2px;
+    outline: none;
+    width: 490px;
+    width:300px; 
+    /* height:25px; */
+    border-radius:25px; 
+    border: none; 
+
+}
+
+input[type="submit"]{
+    background-color: red;
+    border-radius: 2px;
+    width: 200px;
+    color: white;
+    width:300px; 
+    height:25px; 
+    border-radius:25px; 
+    border: none; 
+
+}
+
+#response__footer{padding: 12px;}
+#response__footer span{
+    margin-top: 20px;
+    padding: 12px;
+}

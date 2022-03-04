@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstration of Ajax</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="formbody">
+<p>
+        AJAX FORM SUBMISSION
+        </p>
+    <form name="registration_form" id="registrationForm" enctype="multipart/form-data>
+        <!-- Name -->
+        <label for="name">Fullname:</label>
+        <br>
+        <input type="text" name="name" id="registrationForm__name" required>
+        <br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="registrationForm__email" required>
+        <br>
+
+        <!-- Phone Number -->
+        <label for="phone_number">PhoneNumber:</label>
+        <br>
+        <input type="tel" name="phone_number" id="registrationForm__phone" required>
+        <br>
+
+        <!-- Marital -->
+        <label for="marital_status">Marital Status:</label>
+        <br>
+         <select name="marital_status" id="registrationForm__marital" required>
+            <option selected disabled>Select Marital Status</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+        </select>
+        <br>
+
+        <!-- Gender -->
+        <label for="gender">Gender:</label>
+        <br>
+        <select name="gender" id="registrationForm__gender" required>
+        <option selected disabled>Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        </select>
+        <br>
+
+        <!-- National Card -->
+        <label for="national_card">Ghana National ID</label>
+        <br>
+        <input type="text" name="national_card" id="registrationForm__card" required>
+        <br>
+
+        <!-- Profile Pic -->
+        <label for="picture">Picture</label>
+        <br>
+        <input type="file" accept="image/*" name="picture" id="registrationForm__pic" required>
+        <br>
+
+        <input type="submit" value="Submit" name="submit" id="submit">
+    </form>
+    </div>
+
+    <!-- Response -->
+    <div id="response">
+       
+    </div>
+    
+    <script src="handler.js"></script>
+</body>
+</html>
